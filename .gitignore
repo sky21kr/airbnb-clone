@@ -143,3 +143,5 @@ cython_debug/
 
 #Mac
 .DS_Store
+
+uploads/
