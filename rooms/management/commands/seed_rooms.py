@@ -21,7 +21,6 @@ class Command(BaseCommand):
         seeder = Seed.seeder()
         all_users = user_models.User.objects.all()
         room_types = room_models.RoomType.objects.all()
-        print(room_types)
         seeder.add_entity(
             room_models.Room,
             number,
